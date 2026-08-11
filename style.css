@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.secoes {
+  display: flex;
+  justify-content: center;
+  gap: 80px; /* espaço bem grande entre eles */
+  margin-top: 80px;
+}
+
+.secao h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.secao button {
+  padding: 18px 45px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 2px solid #333;
+  background: transparent;
+  cursor: pointer;
+}
