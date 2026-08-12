@@ -1,13 +1,20 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background:black;
 }
 
+h1{
+  color:aliceblue;
+}
 .secoes {
   display: flex;
   justify-content: center;
   gap: 80px; /* espaço bem grande entre eles */
-  margin-top: 80px;
+  margin-top: 200px;
+margin-left: 200px;
+margin-right: 200px;
+}
 }
 
 .secao h2 {
@@ -22,4 +29,11 @@ body {
   border: 2px solid #333;
   background: transparent;
   cursor: pointer;
+}
+
+div,.secao{
+  background:red;
+  border-radius: 30px;
+  border: 2px
+
 }
