@@ -48,11 +48,11 @@ margin-right: 200px;
 }
 
 .cabecalho {
-  background-image: url('banner.jpg'); /* coloca o nome exato da sua imagem */
+  background-image: url('banner1.jpg'); /* coloca o nome exato da sua imagem */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  padding: 100px 20px 200px 20px;
+  padding: 50px 20px 200px 20px;
   position: relative;
 }
 
