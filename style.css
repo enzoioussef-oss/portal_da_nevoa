@@ -11,9 +11,18 @@ h1{
   display: flex;
   justify-content: center;
   gap: 80px; /* espaço bem grande entre eles */
-  margin-top: 200px;
+  margin-top: 80px;
 margin-left: 200px;
 margin-right: 200px;
+}
+
+.intro {
+  color: aliceblue;
+  font-size: 1.15rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  opacity: 0.9;
 }
 
 .secao h2 {
@@ -36,4 +45,32 @@ margin-right: 200px;
   border: 2px solid rgba(0, 0, 0, 0.25);
   padding: 30px 40px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+}
+
+.cabecalho {
+  background-image: url('banner.jpeg'); /* coloca o nome exato da sua imagem */
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 100px 20px 70px 20px;
+  position: relative;
+}
+
+/* Escurece um pouco a imagem para o texto ficar legível */
+.cabecalho::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* Faz o texto ficar na frente da camada escura */
+.cabecalho h1,
+.cabecalho .intro {
+  position: relative;
+  z-index: 2;
 }
